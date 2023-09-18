@@ -1,0 +1,67 @@
+/* This file contains the CSS styles for the React app. */
+
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Page styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Inventory styles */
+.inventory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.inventory-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.inventory-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Order styles */
+.order {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.order-item label {
+  font-weight: bold;
+}
+
+.order-item span {
+  margin-left: 1rem;
+}
+
+.order-total {
+  font-weight: bold;
+  margin-top: 1rem;
+}

@@ -1,1 +1,0 @@
-// This file is intentionally left blank. No setup is required for running tests with Jest and Enzyme in this project.

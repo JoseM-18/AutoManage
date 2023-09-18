@@ -1,0 +1,1 @@
+// here InventoryPage and OrderPage are components that we have created and imported

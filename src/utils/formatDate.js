@@ -1,0 +1,1 @@
+// This file is intentionally left blank. There is no need for a formatDate function in this project.
